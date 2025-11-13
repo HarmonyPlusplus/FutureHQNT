@@ -2,7 +2,8 @@ import React from 'react'
 import Image from 'next/image'
 import SideArrow from '../../../public/assets/sidearrow.png'
 import { useVisibility } from "../Content/context";
-import { Post } from './genAnnoucement'
+import { Post } from "../interface/PostMainInt";
+
 
 interface VeiwRepliesProps {
   post: Post;

@@ -2,7 +2,8 @@
 import { useState } from 'react'
 import GenAnnoucement from "@/components/generalAnnouce/genAnnoucement"
 import SideArticle from "@/components/generalAnnouce/sideArticle"
-import { Post } from '@/components/generalAnnouce/genAnnoucement'
+import { Post } from '../components/interface/PostMainInt'
+
 
 export default function Home() {
    const [selectedPost, setSelectedPost] = useState<Post | null>(null);

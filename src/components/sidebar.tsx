@@ -26,7 +26,7 @@ const Sidebar = () => {
   return (
     <>
 
-      <div className={`max-lg:fixed top-0 left-0 h-screen bg-white border-r border-[#BAC7D5] w-full max-w-[300px] xl:w-[300px] lg:w-[219px] max-lg:z-50 transform transition-transform duration-300 lg:static ${isOpen ? "translate-x-0" : "-translate-x-full"} lg:translate-x-0 `}>
+      <div className={`max-lg:fixed top-0 left-0 h-screen bg-white border-r border-[#BAC7D5] w-full max-w-[300px] xl:w-[245px] lg:w-[219px] max-lg:z-50 transform transition-transform duration-300 lg:static ${isOpen ? "translate-x-0" : "-translate-x-full"} lg:translate-x-0 `}>
         <Header toggleClose={toggleClose} />
 
         <ul className='overflow-y-scroll h-full max-h-[650px] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden'>
